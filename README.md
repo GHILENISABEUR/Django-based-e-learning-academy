@@ -1,164 +1,55 @@
-# 🎓 YG Academy
+🚀 Project Overview
 
-[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://djangoproject.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+This project is a Django-based educational management platform designed to help teachers manage learning content and students access structured educational materials online. It provides a simple and organized environment where teachers can upload and organize course videos while controlling which students can access specific subjects. The platform includes a secure authentication system, role-based access control, and separate dashboards for teachers and students. Teachers can manage students, organize courses into chapters, and control permissions, while students can browse subjects and watch educational content in a structured format. The goal of the project is to demonstrate practical full-stack Django development while exploring how web technologies can improve digital learning platforms. It combines backend logic, database management, and a clean frontend interface to create a functional and scalable educational system suitable for experimentation and learning.
 
-> A modern Django-based academy management system - A side project to master Django development and integrate cutting-edge AI features.
+🛠️ Tools & Technologies
 
-![YG Academy Banner](img/1.png)
+Python 3
 
-## 🚀 Project Overview
+Django Framework
 
-YG Academy is a comprehensive educational management platform built with Django. This project serves as both a learning journey into Django's ecosystem and a testing ground for implementing innovative features in educational technology.
+SQLite / PostgreSQL
 
-## 📸 Screenshots
+HTML5
 
-### Dashboard Overview
-![Dashboard](img/Screenshot from 2025-07-21 11-41-56.png)
+CSS3
 
-### Student Management Interface
-![Student Management](img/student-management.png)
+JavaScript
 
-### Course Management System
-![Course Management](img/course-management.png)
+Bootstrap
 
-## 🏢 Current Features & Functionality
+Django Authentication
 
-### 🔐 Authentication System
-- **User Registration** - Custom user registration with email validation
-- **User Login/Logout** - Secure authentication system
-- **Password Reset** - Email-based password recovery
-- **Role-Based Access** - Separate student and teacher accounts
+Django ORM
 
-### 👨‍🏫 Teacher Features
-- **Teacher Dashboard** - Dedicated teacher interface
-- **Student Management** - View and manage student accounts
-- **Subject Access Control** - Grant/revoke student access to subjects
-- **Math Video Management** - Add, organize, and delete math course videos
-- **Course Organization** - Structure videos by course and chapter
+⭐ Key Features
 
-### 👨‍🎓 Student Features
-- **Student Dashboard** - Personalized student interface
-- **Subject Access** - Access to Math, Physics, Science, History, and English (based on permissions)
-- **Video Learning** - Watch educational videos with organized course structure
-- **Subject-Specific Content** - Dedicated pages for each subject area
+Secure user authentication system (login, register, logout)
 
-### 📚 Course Management
-- **Math Courses** - Complete math course system with video organization
-- **Chapter Organization** - Videos organized by course and chapter
-- **Video Player** - Integrated video watching experience
-- **Course Ordering** - Sequential organization of course content
+Role-based access control (teacher and student roles)
 
-### 🔒 Permission System
-- **Subject-Based Access** - Granular control over subject access
-- **Teacher-Only Areas** - Protected teacher functionality
-- **Access Control Decorators** - Secure page access based on user roles
-- **Subject Unavailable Pages** - Proper handling of access restrictions
+Dedicated dashboards for teachers and students
 
-### 🌐 Website Navigation
-- **Home Page** - Main landing page
-- **About Page** - Information about the academy
-- **Teachers Page** - Teacher information
-- **Contact Page** - Contact information
-- **Content Page** - General content area
+Student management system for teachers
 
-## 🛠️ Technology Stack
+Subject-based permission management
 
-![Tech Stack](img/tech-stack.png)
+Course and chapter organization structure
 
-- **Backend**: Django 4.x, Python 3.x
-- **Database**: SQLite (development), PostgreSQL (production ready)
-- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
-- **Authentication**: Django's built-in authentication system
-- **User Management**: Custom User model with role-based permissions
+Video-based learning system
 
-## 📦 Installation & Setup
+Educational content management
 
-### Prerequisites
-- Python 3.8+
-- pip
-- virtualenv (recommended)
+Protected routes using Django decorators
 
-### Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/GhilaniYassine/YG_Academy.git
-cd YG_Academy
+Structured navigation for courses and subjects
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+Video upload and organization by teachers
 
-# Install dependencies
-pip install -r requirements.txt
+Password reset and account recovery system
 
-# Run migrations
-python manage.py migrate
+Clean and simple educational interface
 
-# Create superuser
-python manage.py createsuperuser
+Controlled access to learning content
 
-# Start development server
-python manage.py runserver
-```
-
-## 📁 Project Structure
-
-```
-YG_Academy/
-├── app/                    # Main application directory
-│   ├── views.py           # Application views and logic
-│   ├── models.py          # Database models (CustomUser, MathCourse)
-│   └── urls.py            # URL routing
-├── static/                 # Static files (CSS, JS, images)
-├── templates/              # HTML templates
-├── media/                  # User uploaded files
-├── img/                    # Documentation images
-├── requirements.txt        # Python dependencies
-├── manage.py              # Django management script
-└── README.md              # Project documentation
-```
-
-## 🎯 Implemented Features
-
-### ✅ Completed Features
-- [x] User authentication (login/logout/register)
-- [x] Role-based access control (teachers vs students)
-- [x] Teacher dashboard with student management
-- [x] Subject-based permission system
-- [x] Math course video management
-- [x] Video organization by course and chapter
-- [x] Student video watching interface
-- [x] Password reset functionality
-- [x] Custom user model with subject permissions
-- [x] Protected views with decorators
-- [x] Error handling (404, access denied)
-
-
-## 🤝 Contributing
-
-This is a learning project, but contributions and suggestions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Share educational insights
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🎓 Learning Journey
-
-This project represents my journey in mastering Django development while exploring educational technology. Each commit brings new knowledge and better coding practices.
-
-## 🎨 UI/UX Preview
-
-### Login Interface
-![Login Page](img/login-page.png)
-
-
-
-⭐ **Star this repository if you find it helpful!**
-
-**Made with ❤️ and lots of ☕ by [Your Name]**
-#YG
+Organized digital learning experience
